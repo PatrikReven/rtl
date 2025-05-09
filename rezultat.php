@@ -75,11 +75,13 @@ foreach ($totals as $i => $score) {
         }
 
         .dice-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 10px;
-        }
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
 
         .dice-img {
             width: 60px;
